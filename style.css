@@ -15,6 +15,18 @@ h1{
     font-family: 'Fredoka One', cursive;
 }
 
+h3{
+    color: white;
+    position: relative;
+    right: 15px;
+    text-align: left;
+    
+}
+
+p{
+    color: white;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -28,8 +40,9 @@ h1{
 .box{
     height: 90px;
     width: 300px;
-    padding: 5px;
+    padding: px;
     background-color: black;
+    
 }
 
 .float-left{
@@ -51,6 +64,26 @@ h1{
 }
 
 .image{
-    height:75px;
+    height:88px;
     float: left;
+    position: relative;
+    right: 3%;
+    bottom: 10px;
+}
+
+.job{
+    position: relative;
+    bottom: 5px;
+    right: 15px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.email{
+    color: aqua;
+    position: relative;
+    bottom: 10px;
+    right: 15px;
+    font-size: 15px;
+    text-align: left;
 }
