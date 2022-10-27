@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*Generic*/
+
 body{
     background-color: white;
     font-family: 'Roboto', sans-serif;
@@ -27,6 +29,8 @@ p{
     color: white;
 }
 
+/*Utils*/
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -34,7 +38,7 @@ p{
 }
 
 .column{
-
+    
 }
 
 .box{
