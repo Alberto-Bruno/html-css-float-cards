@@ -1,0 +1,56 @@
+*{
+    margin: 10px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: rgb(255, 0, 157);
+    font-family: 'Fredoka One', cursive;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px;
+}
+
+.column{
+
+}
+
+.box{
+    height: 90px;
+    width: 300px;
+    padding: 5px;
+    background-color: black;
+}
+
+.float-left{
+    float: left;
+    position: relative;
+    left: 10%;
+}
+
+.float-center{
+    float:left;
+    position: relative;
+    left: 10%;
+}
+
+.float-right{
+    float: right;
+    position: relative;
+    right: 7%;
+}
+
+.image{
+    height:75px;
+    float: left;
+}
