@@ -36,39 +36,40 @@ p{
 /*Utils*/
 
 .container{
-    max-width: 1200px;
+    max-width: 1080px;
     margin: 0 auto;
-    border: 2px;
+}
+
+.clearfix::after {
+    clear: both;
+    display: table;
 }
 
 .column{
-    
+    float: left;
+    width: calc(100% - 70px);
+    padding: 1px;
 }
+
 
 .box{
     height: 90px;
     width: 300px;
-    padding: px;
+    padding: 1px;
     background-color: black;
     
 }
 
 .float-left{
-    float: left;
-    position: relative;
-    left: 10%;
+   float: left;
 }
 
 .float-center{
-    float:left;
-    position: relative;
-    left: 10%;
+    float: right;  
 }
 
 .float-right{
     float: right;
-    position: relative;
-    right: 7%;
 }
 
 .image{
